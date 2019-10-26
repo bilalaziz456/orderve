@@ -1,0 +1,19 @@
+{
+  "name": "Orderve.autotest",
+  "version": "1.0.0",
+  "description": "Just for Orderve Demo",
+  "main": "index.js",
+  "dependencies": {
+    "properties-reader": "^0.3.1",
+    "protractor": "^5.4.2",
+    "protractor-screenshoter-plugin": "^0.10.3",
+    "selenium-webdriver": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "preSetup": "npm i && node ./node_modules/protractor/bin/webdriver-manager update",
+    "test": "protractor index.js"
+  },
+  "author": "Codal",
+  "license": "ISC"
+}
